@@ -15,7 +15,7 @@ body {
   padding: 1em; }
 
 a {
-  color: #00B7FF; }
+  color: #FFFF; }
 
 ul {
   list-style: none;
@@ -72,7 +72,11 @@ ul {
   background: #92bde7;
   color: #fff;
   outline: 0;
-  transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out; }
+
+.index-page {
+  max-width: 80%;
+  margin: 48px auto;
   /* LARGE SCREENS */ }
 
 @media (min-width: 700px) {

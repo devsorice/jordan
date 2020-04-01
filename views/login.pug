@@ -1,0 +1,43 @@
+link(rel='stylesheet', href='/stylesheets/login.css')
+div(class="container",id="container")
+	div(class="form-container sign-up-container")
+		form(action="#")
+			h1 Create Account
+			div(class="social-container")
+				a(href="#",class="social")
+					i(class="fab fa-facebook-f")
+				a(href="#",class="social")
+					i(class="fab fa-google-plus-g")
+				a(href="#",class="social")
+					i(class="fab fa-linkedin-in")
+			span or use your email for registration
+			input(type="text" placeholder="Name") 
+			input(type="email" placeholder="Email")
+			input(type="password" placeholder="Password")
+			button Sign Up
+	div(class="form-container sign-in-container")
+		form(action="#")
+			h1 Sign in
+			div(class="social-container")
+				a(href="#",class="social")
+					i(class="fab fa-facebook-f")
+				a(href="#", class="social")
+					i(class="fab fa-google-plus-g")
+				a(href="#",class="social")
+					i(class="fab fa-linkedin-in")
+			span or use your account/span
+			input(type="email",placeholder="Email")
+			input(type="password",placeholder="Password")
+			a(href="#") Forgot your password?
+			button Sign In
+	div(class="overlay-container")
+		div(class="overlay")
+			div(class="overlay-panel overlay-left")
+				h1 Welcome Back!
+				p To keep connected with us please login with your personal info
+				button(class="ghost" id="signIn") Sign In/button
+			div(class="overlay-panel overlay-right")
+				h1 Hello, Friend!
+				p Enter your personal details and start journey with us
+				button(class="ghost" id="signUp") Sign Up/button
+script(src="/javascripts/login.js")
